@@ -19,7 +19,7 @@
 
   --bs-primary: #a98073;
   --bs-primary-dark: #a98073;
-  --bs-secondary: #FDEEE9;
+  --bs-secondary: #fbe9fd;
   --bs-black: #111;
   --bs-light: #F1F1F0;
   --bs-dark: #212529;
@@ -37,6 +37,7 @@
   --bs-link-decoration: underline;
   --bs-link-hover-color: var(--bs-primary);
   --bs-link-hover-color-rgb: 169, 128, 115;
+  --section-bg-color-secondary: #fdf5fd;
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   /* spacing */
@@ -576,6 +577,18 @@ body.nav-active .nav__list-item:nth-child(10) {
     text-align: center; /* Optional for center alignment */
     margin-top: 10px;
   }
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a3248e;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e7e7e7;
 }
 
 .gallery .gallery-item {
